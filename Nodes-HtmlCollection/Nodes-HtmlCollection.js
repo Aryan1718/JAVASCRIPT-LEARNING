@@ -3,15 +3,15 @@
 
 const div = document.querySelector('.parent')
 
-//using querySelector we are selecting first node or element
+//Using querySelector, we are selecting the first node or element.
 console.log(div)
 
-//firstElementChild method is used to fetch the first element of an parent node
+//The firstElementChild method is used to fetch the first element of a parent node.
 console.log(div.firstElementChild)
 
 const firstDay = div.firstElementChild
 
-//now after accessing the first element we can perform any operation
+//Now, after accessing the first element, we can perform any operation.
 console.log(firstDay.innerHTML)
 
 firstDay.style.color = 'red'
@@ -20,12 +20,12 @@ firstDay.style.backgroundColor = "green"
 
 firstDay.innerHTML = "NOT MONDAY"
 
-//Now using children method you can fetch all the children of an parent in a htmlCollection
+//Now, using the children method, you can fetch all the children of a parent node in an HTMLCollection.
 
 console.log(div.children)
 
-//now htmlCollection is not array but there are some same functionality like array like using [index] you can fetch 
-//particular element so check out how to print all the child element
+//Now, an HTMLCollection is not an array, but it shares some functionalities with arrays. For example, you can access a particular element using the square bracket notation [index]. 
+//Let's explore how to print all the child elements.
 
 const child = div.children
 
@@ -44,7 +44,6 @@ console.log(child[0].innerHTML)
 console.log(div.childNodes)
 
 //difference between childNodes and HtmlCollection
-//check-out parent-child.txt
 
 //You can also call parent from child as well
 
